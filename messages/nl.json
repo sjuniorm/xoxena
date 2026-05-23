@@ -1,5 +1,105 @@
 {
+  "nav": {
+    "about": "Over",
+    "gallery": "Met liefde gemaakt",
+    "custom": "Op maat"
+  },
   "hero": {
-    "headline": "Hoi, ik ben Xena"
+    "eyebrow": "Haakcreaties · Met de hand gemaakt",
+    "headline": "Hoi, ik ben",
+    "name": "Xena",
+    "tagline": "Lieve kleine dingen,",
+    "taglineUnderlined": "met liefde gehaakt.",
+    "copy": "Met de hand gehaakte knuffels, accessoires en aandenkens — stuk voor stuk gemaakt vanuit mijn kleine hoekje van de wereld. Kies iets uit de galerij of laat iets speciaals voor jou maken.",
+    "ctaPrimary": "Bekijk haar werk →",
+    "ctaGhost": "♡ Iets op maat bestellen"
+  },
+  "marquee": {
+    "items": [
+      "met liefde gemaakt",
+      "steek voor steek",
+      "kleine batches, grote knuffels",
+      "alleen pastelkleuren"
+    ]
+  },
+  "about": {
+    "eyebrow": "Maak kennis met Xena",
+    "heading": "Wol, thee en heel veel hart.",
+    "p1": "Op een regenachtige middag begon ik te haken en sindsdien is de haaknaald nooit meer uit mijn hand geweest. Wat als hobby begon, werd een klein atelier vol knuffels, scrunchies en aandenkens — elk stuk langzaam ontworpen, met de hand, in pasteltinten waar ik niet vanaf kan blijven.",
+    "p2": "Als iets je hier laat glimlachen, dan is dat precies de bedoeling. ♡",
+    "signature": "— xx Xena",
+    "portraitLabel": "foto van xena · sleep bestand",
+    "fact1Number": "3 jaar",
+    "fact1Label": "haken",
+    "fact2Number": "200+",
+    "fact2Label": "stuks gemaakt",
+    "fact3Number": "100%",
+    "fact3Label": "handgemaakt"
+  },
+  "gallery": {
+    "eyebrow": "— een kijkje in het mandje —",
+    "heading": "Met liefde gemaakt",
+    "sub": "Een kleine galerij van afgewerkte stukjes. Foto's uit het atelier, van het bureau en de vensterbank.",
+    "items": [
+      { "placeholder": "perzik beertje · foto", "caption": "perzik de beer" },
+      { "placeholder": "munt vestje · foto", "caption": "lentevest" },
+      { "placeholder": "lavendel tas · foto", "caption": "tote nr. 3" },
+      { "placeholder": "lucht scrunchies · foto", "caption": "wolkjes trio" },
+      { "placeholder": "roze hart kussen · foto", "caption": "een klein hartje" },
+      { "placeholder": "boter konijntje · foto", "caption": "honingkonijntje" }
+    ]
+  },
+  "custom": {
+    "eyebrow": "— speciaal voor jou —",
+    "heading1": "Droom het,",
+    "heading2": "ik haak het.",
+    "copy": "Iets specifieks in gedachten? Een beertje in de lievelingskleur van je beste vriendin, een dekentje voor een pasgeborene, een setje bijpassende scrunchies? Vertel het me hieronder en ik kom binnen een paar dagen terug met een schets en prijs.",
+    "checklist1": "Knuffels, mutsen, tassen, scrunchies, dekens — kom maar op met je idee.",
+    "checklist2": "Ik stuur een schetsje + kleurenpalet voor ik begin.",
+    "checklist3": "De meeste stukken worden in 2–4 weken verzonden (alles met de hand!).",
+    "checklist4": "Wereldwijde verzending, met zorg verpakt.",
+    "formIntro": "Vertel me over je idee",
+    "name": "Je naam",
+    "namePh": "bijv. Sophie",
+    "email": "E-mail",
+    "emailPh": "jij@ergens.com",
+    "whatLabel": "Wat wil je graag?",
+    "typePlushie": "Knuffel",
+    "typeHat": "Muts",
+    "typeBag": "Tas",
+    "typeBlanket": "Deken",
+    "typeScrunchie": "Scrunchie-set",
+    "typeOther": "Iets anders",
+    "paletteLabel": "Kies je palet (zoveel als je wilt)",
+    "pRose": "roos",
+    "pMint": "munt",
+    "pSky": "lucht",
+    "pPeach": "perzik",
+    "pButter": "boter",
+    "pLavender": "lavendel",
+    "pCream": "crème",
+    "budgetLabel": "Globaal budget",
+    "budget1": "Onder €40",
+    "budget2": "€40–80",
+    "budget3": "€80–150",
+    "budget4": "€150+",
+    "budget5": "nog niet zeker ♡",
+    "ideaLabel": "Vertel het me",
+    "ideaPh": "Een klein beertje dat lijkt op mijn hondje Mochi…",
+    "priceHint": "gratis schets + prijs ♡",
+    "submit": "Stuur mijn idee →",
+    "successHeading": "Joepie, je berichtje is onderweg!",
+    "successCopy": "Ik laat binnen 2–3 dagen iets weten met een schetsje en prijs. Bedankt voor het denken aan mij! ♡",
+    "errorConfig": "E-mail is nog niet geconfigureerd. Probeer het later opnieuw.",
+    "errorSend": "We konden je berichtje niet versturen — probeer het opnieuw."
+  },
+  "footer": {
+    "brand": "XO Xena",
+    "tag": "Met liefde gemaakt · haakcreaties uit een klein hoekje van de wereld.",
+    "wanderHeading": "Dwaal rond",
+    "sayHiHeading": "Zeg hallo",
+    "shippingLink": "verzending & onderhoud",
+    "copyright": "© 2026 XO Xena · met de hand gemaakt, met liefde verzonden.",
+    "footerNote": "♡ steek voor steek ♡"
   }
 }

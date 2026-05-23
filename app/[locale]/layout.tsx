@@ -2,6 +2,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { Caveat, Quicksand, DM_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import { SmoothScroll } from "@/components/SmoothScroll";
 import "../globals.css";
 
 const caveat = Caveat({
@@ -48,6 +49,7 @@ export default async function LocaleLayout({
       className={`${caveat.variable} ${quicksand.variable} ${dmMono.variable}`}
     >
       <body>
+        <SmoothScroll />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>

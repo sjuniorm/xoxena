@@ -1,5 +1,105 @@
 {
+  "nav": {
+    "about": "About",
+    "gallery": "Made with Love",
+    "custom": "Custom Orders"
+  },
   "hero": {
-    "headline": "Hi, I'm Xena"
+    "eyebrow": "Crochet Creations · Made in Small Batches",
+    "headline": "Hi, I'm",
+    "name": "Xena",
+    "tagline": "Cozy little things,",
+    "taglineUnderlined": "stitched with love.",
+    "copy": "Hand-crocheted softies, accessories & keepsakes — each one made one stitch at a time from my little corner of the world. Pick a piece from the gallery, or dream up something just for you.",
+    "ctaPrimary": "See her creations →",
+    "ctaGhost": "♡ Order something custom"
+  },
+  "marquee": {
+    "items": [
+      "made with love",
+      "one stitch at a time",
+      "tiny batches, big hugs",
+      "pastel things only"
+    ]
+  },
+  "about": {
+    "eyebrow": "Meet the Maker",
+    "heading": "Yarn, tea, and a whole lot of heart.",
+    "p1": "I started crocheting on a rainy afternoon, and somehow never put the hook down. What began as a hobby turned into a tiny studio of softies, scrunchies, and keepsakes — every piece designed slowly, by hand, in pastel palettes I can't help but reach for.",
+    "p2": "If you find something here that makes you smile, that's exactly the idea. ♡",
+    "signature": "— xx Xena",
+    "portraitLabel": "photo of xena · drop file",
+    "fact1Number": "3 yrs",
+    "fact1Label": "stitching",
+    "fact2Number": "200+",
+    "fact2Label": "pieces made",
+    "fact3Number": "100%",
+    "fact3Label": "homemade"
+  },
+  "gallery": {
+    "eyebrow": "— a peek inside the basket —",
+    "heading": "Made with Love",
+    "sub": "A little gallery of finished pieces. Snapshots from the studio, the desk, and the windowsill.",
+    "items": [
+      { "placeholder": "peach bear plushie · pic", "caption": "peach the bear" },
+      { "placeholder": "mint cardigan flat-lay · pic", "caption": "spring cardigan" },
+      { "placeholder": "lavender bag · pic", "caption": "tote no. 3" },
+      { "placeholder": "sky scrunchie set · pic", "caption": "cloud trio" },
+      { "placeholder": "rose heart pillow · pic", "caption": "a tiny heart" },
+      { "placeholder": "butter bunny softie · pic", "caption": "honey bunny" }
+    ]
+  },
+  "custom": {
+    "eyebrow": "— Made just for you —",
+    "heading1": "Dream it,",
+    "heading2": "I'll stitch it.",
+    "copy": "Got something specific in mind? A bear in your best friend's favourite colour, a baby blanket for a new arrival, a matching scrunchie set? Tell me about it below and I'll get back to you with a sketch & quote within a few days.",
+    "checklist1": "Plushies, hats, bags, scrunchies, blankets — bring your idea.",
+    "checklist2": "I'll send a little sketch + colour palette before stitching.",
+    "checklist3": "Most pieces ship in 2–4 weeks (it's all by hand!).",
+    "checklist4": "Worldwide shipping, packaged with care.",
+    "formIntro": "Tell me about your idea",
+    "name": "Your name",
+    "namePh": "e.g. Sophie",
+    "email": "Email",
+    "emailPh": "you@somewhere.com",
+    "whatLabel": "What would you like?",
+    "typePlushie": "Plushie",
+    "typeHat": "Hat / beanie",
+    "typeBag": "Bag / tote",
+    "typeBlanket": "Blanket",
+    "typeScrunchie": "Scrunchie set",
+    "typeOther": "Something else",
+    "paletteLabel": "Pick your palette (any number)",
+    "pRose": "rose",
+    "pMint": "mint",
+    "pSky": "sky",
+    "pPeach": "peach",
+    "pButter": "butter",
+    "pLavender": "lavender",
+    "pCream": "cream",
+    "budgetLabel": "Rough budget",
+    "budget1": "Under €40",
+    "budget2": "€40–80",
+    "budget3": "€80–150",
+    "budget4": "€150+",
+    "budget5": "not sure yet ♡",
+    "ideaLabel": "Tell me about it",
+    "ideaPh": "A little bear that looks like my dog Mochi…",
+    "priceHint": "free sketch + quote ♡",
+    "submit": "Send my idea →",
+    "successHeading": "Yay, your note is on its way!",
+    "successCopy": "I'll write back within 2–3 days with a little sketch & quote. Until then, thank you so much for thinking of me. ♡",
+    "errorConfig": "Email is not configured yet. Please try again later.",
+    "errorSend": "We couldn't send your note — please try again."
+  },
+  "footer": {
+    "brand": "XO Xena",
+    "tag": "Homemade with love · Crochet creations from a little corner of the world.",
+    "wanderHeading": "Wander",
+    "sayHiHeading": "Say hi",
+    "shippingLink": "shipping & care",
+    "copyright": "© 2026 XO Xena · Made by hand, sent with love.",
+    "footerNote": "♡ one stitch at a time ♡"
   }
 }

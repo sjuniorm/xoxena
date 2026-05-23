@@ -1,5 +1,105 @@
 {
+  "nav": {
+    "about": "Sobre mí",
+    "gallery": "Hecho con amor",
+    "custom": "Encargos"
+  },
   "hero": {
-    "headline": "Hola, soy Xena"
+    "eyebrow": "Creaciones de ganchillo · Hechas en pequeñas tandas",
+    "headline": "Hola, soy",
+    "name": "Xena",
+    "tagline": "Pequeñas cosas acogedoras,",
+    "taglineUnderlined": "tejidas con amor.",
+    "copy": "Peluches, accesorios y recuerditos hechos a ganchillo — uno a uno, punto a punto, desde mi pequeño rincón del mundo. Elige una pieza de la galería o imagina algo solo para ti.",
+    "ctaPrimary": "Ver sus creaciones →",
+    "ctaGhost": "♡ Encargar algo a medida"
+  },
+  "marquee": {
+    "items": [
+      "hecho con amor",
+      "punto a punto",
+      "tandas pequeñas, abrazos grandes",
+      "solo cosas pastel"
+    ]
+  },
+  "about": {
+    "eyebrow": "Conoce a la creadora",
+    "heading": "Hilo, té y mucho corazón.",
+    "p1": "Empecé a hacer ganchillo una tarde lluviosa y, de algún modo, ya no he soltado la aguja. Lo que empezó como hobby se convirtió en un pequeño estudio de peluches, scrunchies y recuerdos — cada pieza diseñada despacio, a mano, en paletas pastel a las que no puedo resistirme.",
+    "p2": "Si encuentras algo aquí que te haga sonreír, esa es justo la idea. ♡",
+    "signature": "— xx Xena",
+    "portraitLabel": "foto de xena · suelta archivo",
+    "fact1Number": "3 años",
+    "fact1Label": "tejiendo",
+    "fact2Number": "200+",
+    "fact2Label": "piezas hechas",
+    "fact3Number": "100%",
+    "fact3Label": "hecho a mano"
+  },
+  "gallery": {
+    "eyebrow": "— un vistazo dentro de la cesta —",
+    "heading": "Hecho con amor",
+    "sub": "Una pequeña galería de piezas terminadas. Instantáneas del estudio, del escritorio y de la ventana.",
+    "items": [
+      { "placeholder": "osito melocotón · foto", "caption": "osito melocotón" },
+      { "placeholder": "cárdigan menta · foto", "caption": "cárdigan de primavera" },
+      { "placeholder": "bolso lavanda · foto", "caption": "tote nº 3" },
+      { "placeholder": "scrunchies cielo · foto", "caption": "trío nube" },
+      { "placeholder": "cojín corazón rosa · foto", "caption": "un corazoncito" },
+      { "placeholder": "conejito mantequilla · foto", "caption": "conejito miel" }
+    ]
+  },
+  "custom": {
+    "eyebrow": "— hecho solo para ti —",
+    "heading1": "Imagínalo,",
+    "heading2": "yo lo tejo.",
+    "copy": "¿Tienes algo concreto en mente? ¿Un oso en el color favorito de tu mejor amiga, una mantita para un bebé, un set de scrunchies a juego? Cuéntamelo aquí y te responderé con un boceto y presupuesto en unos días.",
+    "checklist1": "Peluches, gorros, bolsos, scrunchies, mantas — trae tu idea.",
+    "checklist2": "Te enviaré un boceto y paleta antes de empezar.",
+    "checklist3": "La mayoría de piezas llegan en 2–4 semanas (¡todo a mano!).",
+    "checklist4": "Envíos a todo el mundo, empaquetado con cariño.",
+    "formIntro": "Cuéntame tu idea",
+    "name": "Tu nombre",
+    "namePh": "p. ej. Sofía",
+    "email": "Email",
+    "emailPh": "tu@correo.com",
+    "whatLabel": "¿Qué te gustaría?",
+    "typePlushie": "Peluche",
+    "typeHat": "Gorro",
+    "typeBag": "Bolso",
+    "typeBlanket": "Manta",
+    "typeScrunchie": "Set de scrunchies",
+    "typeOther": "Otra cosa",
+    "paletteLabel": "Elige tu paleta (las que quieras)",
+    "pRose": "rosa",
+    "pMint": "menta",
+    "pSky": "cielo",
+    "pPeach": "melocotón",
+    "pButter": "mantequilla",
+    "pLavender": "lavanda",
+    "pCream": "crema",
+    "budgetLabel": "Presupuesto orientativo",
+    "budget1": "Menos de €40",
+    "budget2": "€40–80",
+    "budget3": "€80–150",
+    "budget4": "€150+",
+    "budget5": "todavía no lo sé ♡",
+    "ideaLabel": "Cuéntamelo",
+    "ideaPh": "Un osito que se parezca a mi perro Mochi…",
+    "priceHint": "boceto y presupuesto gratis ♡",
+    "submit": "Enviar mi idea →",
+    "successHeading": "¡Yupi, tu mensaje está en camino!",
+    "successCopy": "Te responderé en 2–3 días con un boceto y presupuesto. Mientras tanto, ¡gracias por pensar en mí! ♡",
+    "errorConfig": "El email aún no está configurado. Inténtalo más tarde.",
+    "errorSend": "No pudimos enviar tu mensaje — vuelve a intentarlo."
+  },
+  "footer": {
+    "brand": "XO Xena",
+    "tag": "Hecho con amor · creaciones de ganchillo desde un pequeño rincón del mundo.",
+    "wanderHeading": "Pasea",
+    "sayHiHeading": "Saluda",
+    "shippingLink": "envíos y cuidados",
+    "copyright": "© 2026 XO Xena · hecho a mano, enviado con amor.",
+    "footerNote": "♡ punto a punto ♡"
   }
 }
