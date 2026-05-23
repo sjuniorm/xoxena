@@ -1,26 +1,194 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-cream: #fdf5ec;
+  --color-cream-2: #f8eadb;
+  --color-cream-3: #f2dfc9;
+  --color-coral: #e08a8a;
+  --color-coral-dark: #c46b6b;
+  --color-rose: #f5c0c0;
+  --color-peach: #f8d2b0;
+  --color-mint: #c4dfcb;
+  --color-sky: #c7d8e6;
+  --color-lavender: #d8c9e0;
+  --color-butter: #f4e1a8;
+  --color-brown: #5c4438;
+  --color-brown-2: #8c6a57;
+  --color-brown-soft: #b89380;
+
+  --font-display: var(--font-caveat);
+  --font-body: var(--font-quicksand);
+  --font-mono: var(--font-dm-mono);
+
+  --shadow-soft: 0 8px 24px -10px rgba(92, 68, 56, 0.22);
+  --shadow-lg: 0 18px 40px -16px rgba(92, 68, 56, 0.28);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-brown);
+  font-size: 17px;
+  line-height: 1.55;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(224, 138, 138, 0.04) 0, transparent 60%),
+    radial-gradient(circle at 88% 72%, rgba(196, 223, 203, 0.05) 0, transparent 55%),
+    radial-gradient(circle at 50% 110%, rgba(248, 210, 176, 0.06) 0, transparent 50%);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image:
+    radial-gradient(circle, rgba(140, 106, 87, 0.18) 0.5px, transparent 1px),
+    radial-gradient(circle, rgba(140, 106, 87, 0.14) 0.5px, transparent 1px);
+  background-size: 140px 140px, 90px 90px;
+  background-position: 0 0, 45px 60px;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), cursive;
+  font-weight: 700;
+  color: var(--color-coral-dark);
+  margin: 0;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: clamp(42px, 5vw, 64px);
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  color: var(--color-brown-soft);
+  margin-bottom: 14px;
+}
+
+/* Reusable button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 26px;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    transform 0.1s,
+    box-shadow 0.1s;
+}
+
+.btn-primary {
+  background: var(--color-coral);
+  color: white;
+  box-shadow: 0 5px 0 var(--color-coral-dark);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 var(--color-coral-dark);
+}
+
+.btn-ghost {
+  background: white;
+  color: var(--color-brown);
+  border: 1.5px dashed var(--color-brown-soft);
+}
+
+.btn-ghost:hover {
+  background: var(--color-cream-2);
+}
+
+/* Wavy divider */
+.wavy {
+  width: 100%;
+  height: 16px;
+  background:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 16' preserveAspectRatio='none'><path d='M0 8 Q 15 0 30 8 T 60 8 T 90 8 T 120 8' stroke='%23E08A8A' stroke-width='2' fill='none' stroke-linecap='round'/></svg>")
+    center / 120px 16px repeat-x;
+  margin: 0 auto;
+  max-width: 200px;
+  opacity: 0.55;
+}
+
+/* Floaty animation reused by yarn balls */
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
